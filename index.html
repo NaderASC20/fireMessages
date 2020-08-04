@@ -7,17 +7,40 @@
 
     <title>fireMessage</title>
 
-    <!--Go to https://console.firebase.google.com-->
+    <!--Go to 
+    -->
     <!--Sign in and add a project "fireMessage"-->
     <!--PASTE SNIPPET HERE-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase.js"></script>
+x
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyBsBB6QZpnPISmIUYtyFBITd9qBDzkXoj8",
+        authDomain: "firemessage-6f2d5.firebaseapp.com",
+        databaseURL: "https://firemessage-6f2d5.firebaseio.com",
+        projectId: "firemessage-6f2d5",
+        storageBucket: "firemessage-6f2d5.appspot.com",
+        messagingSenderId: "812695908358",
+        appId: "1:812695908358:web:c8c3ce454c9fe26a0c1387",
+        measurementId: "G-905DKH866Y"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
 
 
-
-    <!--custom files-->
-    <script src="lib/js/main.js" defer></script>
-    <link rel="stylesheet" href="lib/css/style.css">
-</head>
-<body>
+        <!--custom files-->
+        <script src="lib/js/main.js" defer></script>
+        <link rel="stylesheet" href="lib/css/style.css">
+    </head>
+    <body>
 
     <!--Add your name-->
     <h1>Bob's Messaging App</h1>
